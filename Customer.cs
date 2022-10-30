@@ -15,7 +15,7 @@ namespace ChickenShop
 
             if (money >= order.Sum())
             {
-                Console.WriteLine("Enjoy your meal."); 
+                //Need to figure out how to properly create a CheckIngredients method to be used here.
             }
             else
             {
