@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace ChickenShop
 {
-    internal class Shop
+    public class Wallet
     {
-        public static void MakeOrder()
+        public float value;
+
+        public Wallet(float money)
         {
-            
+            value = money;
         }
     }
 }

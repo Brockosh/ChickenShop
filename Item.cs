@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ChickenShop
 {
-    internal class Shop
+    public class Item
     {
-        public static void MakeOrder()
-        {
-            
-        }
+      
     }
 }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ChickenShop
 {
-    internal class Shop
+    internal class cokeFlavouring : Ingredients
     {
-        public static void MakeOrder()
+        public cokeFlavouring(float price, int quantity)
+          : base(price, quantity)
         {
-            
         }
     }
 }

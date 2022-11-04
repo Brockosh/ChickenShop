@@ -10,10 +10,17 @@ namespace ChickenShop
     {
         static void Main()
         {
-            Customer john = new Customer();
+            Customer customer1 = new Customer("Brock");
+            Lettuce lettuce = new Lettuce(0.20f, 4);
+            Burger burger = new Burger();
             Menu menu = new Menu();
+            
 
-            john.OrderReady(new[] {Burger.price, Drink.price, Icecream.price}, 20);
+            Console.WriteLine(lettuce.price);
+            Console.WriteLine(Burger.burgerPrice);
+
+           
+          
         }
     }
 }
